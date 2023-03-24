@@ -8,6 +8,7 @@ authors = ["{{ cookiecutter.full_name }} <{{ cookiecutter.email }}>"]
 python = "^{{ cookiecutter.python_version }}"
 
 [tool.poetry.dev-dependencies]
+black = "^23"
 pytest = "^7"
 
 [build-system]
