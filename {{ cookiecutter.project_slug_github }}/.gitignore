@@ -1,7 +1,5 @@
 # Project
-logs/
-*.db
-*.db-journal
+# Add project-specific ignores here
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
