@@ -30,7 +30,7 @@ git clone https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.
 cd {{ cookiecutter.project_slug_github }}
 ```
 
-Install the dependencies with Poetry. {{ cookiecutter.project_name }} requires Python {{ cookiecutter.python_version }}+.
+Install the dependencies with Poetry. {{ cookiecutter.project_name }} requires Python `^{{ cookiecutter.python_version }}`.
 
 ```shell
 poetry install --no-root --no-dev
