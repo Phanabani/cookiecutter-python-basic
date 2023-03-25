@@ -1,4 +1,4 @@
-{% set class_name = cookiecutter.project_name|title|replace(' ', '') -%}
+{% set class_name = cookiecutter.project_slug|replace("_", " ")|title|replace(" ", "") -%}
 import logging
 
 __all__ = ["{{ class_name }}"]
